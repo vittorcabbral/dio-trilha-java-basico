@@ -5,59 +5,63 @@ import com.apple.iphone.navegador_internet.NavegadorInternet;
 import com.apple.iphone.reprodutor_musical.ReprodutorMusical;
 
 
-public class Iphone implements AparelhoTelefonico,NavegadorInternet,ReprodutorMusical {
+public class Iphone implements AparelhoTelefonico, NavegadorInternet, ReprodutorMusical {
 
+    //Aparelho Telefone
     @Override
     public void ligar(String numero){
-        
+
+        System.out.println("Ligando do Iphone");
     }
 
     @Override
     public void atender() {
-        // TODO Auto-generated method stub
-        
+
+        System.out.println("Atendendo no Iphone");
     }
 
     @Override
     public void iniciarCorreioVoz() {
-        // TODO Auto-generated method stub
-        
+
+        System.out.println("Iniciando correio de voz no Iphone");
     }
 
+    //Navegador - Internet
     @Override
     public void adicionarNovaAba() {
-        // TODO Auto-generated method stub
-        
+
+        System.out.println("Abrindo nova aba no Iphone");
     }
 
     @Override
     public void atualizarPagina() {
-        // TODO Auto-generated method stub
-        
+       
+        System.out.println("Atualizando página no Iphone");
     }
 
     @Override
     public void exibirPagina(String url) {
-        // TODO Auto-generated method stub
-        
+
+        System.out.println("Exibindo página no Iphone");
     }
 
+    //Reprodutor Musical
     @Override
     public void pausar() {
-        // TODO Auto-generated method stub
-        
+
+        System.out.println("Pausando no Iphone");
     }
 
     @Override
     public void selecionarMusica(String musica) {
-        // TODO Auto-generated method stub
         
+        System.out.println("Selecionando música no Iphone");
     }
 
     @Override
     public void tocar() {
-        // TODO Auto-generated method stub
-        
+
+        System.out.println("Tocando no Iphone");
     }
 
 }

@@ -2,6 +2,7 @@ package com.apple.iphone.teste_aplicacao;
 
 import com.apple.iphone.aparelho_telefonico.AparelhoTelefonico;
 import com.apple.iphone.aparelho_telefonico.Telefone;
+import com.apple.iphone.iphone.Iphone;
 import com.apple.iphone.navegador_internet.NavegadorInternet;
 import com.apple.iphone.navegador_internet.Safari;
 import com.apple.iphone.reprodutor_musical.*;
@@ -38,5 +39,21 @@ public class Main {
         ipod.selecionarMusica("lalalala");
         ipod.pausar();
         ipod.tocar();
+
+        System.out.println();
+
+        //Iphone 
+        Iphone iphone = new Iphone();
+        iphone.atender();
+        iphone.atualizarPagina();
+        iphone.tocar();
+
+        NavegadorInternet navegador_iphone = new Iphone();
+        AparelhoTelefonico telefone_iphone = iphone;
+        ReprodutorMusical reprodutor_iphone = iphone;
+
+        telefone_iphone.iniciarCorreioVoz();
+        reprodutor_iphone.pausar();
+        navegador_iphone.atualizarPagina();
     }
 }
