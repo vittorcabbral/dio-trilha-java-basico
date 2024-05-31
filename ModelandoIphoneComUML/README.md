@@ -8,6 +8,8 @@
    * Polimorfismo 
    * Abstração
       * Interface 
+### 📋 Linguagem de Modelagem Unificada (UML)
+   * Lucidchart : Ferramenta utilizada para fazer a diagramação
 
 ### 🔗 Tópicos complementares
    * Análise de regras de negócio 
